@@ -61,7 +61,7 @@ const Form = ({ formData, setFormData }) => {
         label='House/suite/apartment no'
         className='form-input'
         type='number'
-        placeholder='Enter person/site name'
+        placeholder='House/suite/apartment no'
         onChange={(e) => saveFormData({ house: e.target.value })}
         value={formData.house ?? ''}
       />
@@ -69,7 +69,7 @@ const Form = ({ formData, setFormData }) => {
         label='Phone'
         className='form-input'
         type='tel'
-        placeholder='Enter person/site name'
+        placeholder='Phone'
         onChange={(e) => saveFormData({ phone: e.target.value })}
         value={formData.phone ?? ''}
       />
@@ -77,7 +77,7 @@ const Form = ({ formData, setFormData }) => {
         label='Fax'
         className='form-input'
         type='number'
-        placeholder='Enter person/site name'
+        placeholder='Fax'
         onChange={(e) => saveFormData({ fax: e.target.value })}
         value={formData.fax ?? ''}
       />
